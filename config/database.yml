@@ -83,4 +83,4 @@ production:
   <<: *default
   database: DAI_MOVIE_production
   username: DAI_MOVIE
-  password: <%= ENV['DAI_MOVIE_DATABASE_PASSWORD'] %>
+  password: 'md5b65bf2a7ca57dd5bfca5f40f40f7b526'
